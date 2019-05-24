@@ -30,7 +30,6 @@ public class NPJdbcConfig {
 		dataSource.setUsername(env.getProperty("db.userName"));
 		dataSource.setPassword(env.getProperty("db.password"));
 		System.out.println("///////////////////"+env.getProperty("db.properites"));
-		System.out.println("*************");
 		return dataSource;
 	}
 
